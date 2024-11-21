@@ -1,0 +1,74 @@
+body {
+    font-family: 'Overpass', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(black, white,grey); 
+    color: black;
+}
+
+#header {
+    background-image: url('images/Sahara.jpg'); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#header h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: white
+}
+
+#header h2 {
+    font-size: 3rem;
+    margin-top: 100px;
+    color: white
+}
+
+.pics {
+    display: inline-block;
+    margin: 20px;
+    
+    text-align: left;
+    margin: 10px 0;
+     width: 100%;
+}
+
+.pics img.round {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px;
+}
+
+.pics h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.description {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+#story {
+    background-color: #e0e0e0;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#story img.my-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#story h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+#story p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
